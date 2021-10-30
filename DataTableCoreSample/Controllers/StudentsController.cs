@@ -45,6 +45,7 @@ namespace DataTableCoreSample.Controllers
         // DELETE api/<StudentsController>/5
         [HttpDelete("{id}")]
         public string Delete(int id)
+        
         {
             return _studentService.Delete(id);
 
